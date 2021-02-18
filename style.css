@@ -1,0 +1,92 @@
+/* 
+Requirements:
+1. HTML code that is semantic and valid
+
+2. CSS code that has been written by you, without the use of templates
+
+3. Content that is clear and readable
+
+4. An Intro section that contains the following information:
+        a.  Who you are
+        b.  Where you are located
+
+5. An About Me section that contains the following information:
+        a. description of your passion for web development 
+        b. willingness to work with others
+        c. One or two sentences other interests outside of web development
+        
+6. A Contact section that contains the following information:
+        a. link to your LinkedIn profile
+        b. link to your GitHub profile
+        c. link to your email (optional)
+
+7. The following HTML elements:
+
+    doctype, html, head, body, meta, title,
+    h1, h2, h3, p, link, ul, ol, img, a, hr
+
+8. The following CSS properties:
+
+    background, color, font-family, font-size,
+    height, margin, padding, text-align
+
+9. Semantic containers like main, article, and footer
+
+10. Styled links using pseudo-classes
+
+11. Comments throughout your HTML and CSS that explain your code
+
+*/
+
+* {
+        box-sizing: border-box;
+        background-color: whitesmoke;
+}
+
+h1 {
+        font-size: 3em;
+        text-align: center;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: black;
+}
+
+#introphoto {
+        width: 50%;
+        max-width: 400px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+h2, h3 {
+        text-align: center;
+}
+
+h3 {
+        font-style: italic;
+}
+
+p {
+        margin-left: 100px;
+        font-size: 1.2em;
+}
+
+ol {
+        font-style:italic;
+        margin-left: 200px;
+}
+
+#formatlinks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.format {
+        width: 100%;
+        max-width: 75px;
+        height: auto;
+        padding: 5px;
+}
+
